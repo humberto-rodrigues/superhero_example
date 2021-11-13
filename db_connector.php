@@ -7,11 +7,11 @@
       public function __construct()
       {
 
-         $host = "localhost";
+         $host = "your_host";
          $port = "3306";
-         $db   = "mypartyc_faurecia";
-         $user = "mypartyc_thr";
-         $pass = "!uM8ert0l971";
+         $db   = "db_name";
+         $user = "db_user";
+         $pass = "db_pass";
 
          $options = [
                      \PDO::ATTR_ERRMODE            => \PDO::ERRMODE_EXCEPTION,
